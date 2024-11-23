@@ -20,17 +20,54 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Based on the codebase, this is an Event Management System called "EventMaster" built with Next.js. Here are its key functionalities:
 
-To learn more about Next.js, take a look at the following resources:
+Core Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Event Management
+- Create and manage events with details like title, date, time, description, and budget
+- Track event sessions and agendas
+- View upcoming and completed events
+- Event registration system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. User Roles
+- Multiple user types:
+  - Participants
+  - Organizers 
+  - Speakers
+  - Admins
 
-## Deploy on Vercel
+3. Authentication & Authorization
+- User authentication using Lucia auth
+- Role-based access control
+- Session management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Registration System
+- Participants can register for events
+- Track registration status
+- Attendance tracking
+- Registration approval system by admins
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Dashboard
+- Event analytics and statistics
+- Track participant counts
+- Monitor event budgets
+- View attendance data
+- Feedback collection and ratings
+
+6. Technical Stack
+- Frontend: Next.js, React
+- UI: Tailwind CSS with shadcn/ui components
+- Database: MySQL with Prisma ORM
+- Authentication: Lucia
+- API: REST endpoints using Next.js API routes
+
+7. Data Management
+- Organizer management
+- Speaker assignments
+- Participant tracking
+- Event scheduling
+- Feedback collection
+- Phone number and contact management
+
+This  is a comprehensive system designed specifically for academic events and conferences, with features to handle the entire lifecycle of event management from creation to completion.
